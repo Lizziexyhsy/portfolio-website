@@ -22,11 +22,10 @@ header{
     z-index:1000;
 }
 
-header nav a{
+nav a{
     margin-left:20px;
     text-decoration:none;
     color:#fff;
-    font-weight:500;
 }
 
 .cv-btn{
@@ -36,25 +35,25 @@ header nav a{
 
 .hero{
     display:flex;
-    align-items:center;
     justify-content:space-between;
+    align-items:center;
     padding:150px 10% 100px;
 }
 
 .hero-text h1{
-    font-size:50px;
+    font-size:42px;
     font-weight:800;
 }
 
 .hero-text h2{
+    margin:10px 0;
     font-weight:400;
-    margin-bottom:20px;
 }
 
 .hero-img img{
-    width:300px;
-    border-radius:10px;
+    width:280px;
     border:2px solid #fff;
+    border-radius:10px;
 }
 
 .btn{
@@ -62,7 +61,8 @@ header nav a{
     background:#fff;
     color:#000;
     text-decoration:none;
-    margin-right:10px;
+    margin-top:20px;
+    display:inline-block;
 }
 
 .btn-outline{
@@ -70,6 +70,7 @@ header nav a{
     border:1px solid #fff;
     color:#fff;
     text-decoration:none;
+    margin-left:10px;
 }
 
 .section{
@@ -81,52 +82,25 @@ header nav a{
     background:#111;
 }
 
-.cards{
-    display:flex;
-    gap:20px;
-    justify-content:center;
-    flex-wrap:wrap;
-    margin-top:40px;
-}
-
 .card{
-    background:#000;
+    border:1px solid #fff;
     padding:30px;
-    border:1px solid #fff;
-    width:280px;
-}
-
-.skill{
     margin:20px auto;
-    max-width:500px;
-    text-align:left;
+    max-width:600px;
+    background:#000;
 }
 
-.bar{
-    background:#222;
-    height:8px;
-    margin-top:5px;
+.list{
+    margin-top:10px;
+    list-style:none;
 }
 
-.fill{
-    background:#fff;
-    height:100%;
+.list li{
+    margin:5px 0;
 }
 
-.contact-form{
-    max-width:500px;
-    margin:auto;
-    display:flex;
-    flex-direction:column;
-}
-
-.contact-form input,
-.contact-form textarea{
-    margin:10px 0;
-    padding:10px;
-    background:#111;
-    border:1px solid #fff;
-    color:#fff;
+.contact-info{
+    margin-bottom:20px;
 }
 
 footer{
